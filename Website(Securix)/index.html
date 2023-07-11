@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scal=1.0">
+    <title>Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="pictures/LOGO2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Money Made Secure</h1>
+            <p>Here is the way to make your money more secure than ever.<br>We provide security to one of the most
+                important thing.</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+    </section>
+
+    <section class="course">
+        <h1>What We Offer</h1>
+        <p>we provide safety and security, securing what is important to you as well as us.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Two Step Aurthorization</h3>
+                <p>To get acess to the cash you have to enter an OTP along with your PIN CODE.</p>
+            </div>
+            <div class="course-col">
+                <h3>More Secure Withdrawl</h3>
+                <p>By the help of two step verification we will increase the firewalls between someone and your cash.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Hassel free ATM experience</h3>
+                <p>With us protecting your money you can have a more relaxed and tension free ATM experience.</p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <section class="campus">
+        <h1>Our Plans</h1>
+        <p>We plan on using the mobile phones as a device for OTP generation.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="pictures/download.jpg">
+                <div class="layer">
+                    <h3>MODEL A</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="pictures/pic8.jpg">
+                <div class="layer">
+                    <h3>MODEL B</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="pictures/pic9.jpg">
+                <div class="layer">
+                    <h3>MODEL C</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Offline access of OTP so you don't have to worry about data availability. </p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="pictures/pic13.jpg">
+                <h3>Easy access to OTP.</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="pictures/pic12.png">
+                <h3>Always available.</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="pictures/pic3.jpg">
+                <h3>No data required.</h3>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="testimonial">
+        <h1>What Our Coustomers Says</h1>
+        <p>Listen what our cousterms have to say for us.</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="pictures/user1.jpg">
+                <div>
+                    <p>I have been using this facility for quite a long now and it's amazing how it makes me feel more
+                        secure about my money. Thank you so much.</p>
+                    <h3>Christine Berkley</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="pictures/user2.jpg">
+                <div>
+                    <p>It is a really good service. I personally feel reliefed to know that my money is more safe than
+                        ever.</p>
+                    <h3>David Byer</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="cta">
+        <h1>Join us now and <br>Make your money more secure</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are an early startup trying to do some good in the society by making the <br>financial sector more secure
+            and trying to save people from financial fraud</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
